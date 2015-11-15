@@ -1,0 +1,38 @@
+     h1 { color:red;
+     text-align:center;
+      }
+ p {
+     margin-left:50px;
+     color:orange;
+ }
+img {
+    width: 450px;
+}    
+.purple {
+    color:purple;
+}
+.background {
+    background-color:grey;
+}
+body {
+    font-family:"Poiret One", Lobster, ;
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: center;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 5px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
