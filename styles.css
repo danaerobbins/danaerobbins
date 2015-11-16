@@ -1,5 +1,6 @@
      h1 { color:red;
-     text-align:center;
+     text-align:left;
+     font-family:"Montserrat";
       }
  p {
      margin-left:50px;
@@ -7,6 +8,7 @@
  }
 img {
     width: 450px;
+    height: 350px;
 }    
 .purple {
     color:purple;
@@ -35,4 +37,7 @@ div.img img {
 
 div.img a:hover img {
     border:1px solid #0000ff;
+}
+ul li {
+    display: inline-block;
 }

@@ -1,23 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
         <title> My Website</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <head>
+
     </head>
     <body>
+        <div class="row">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10">
+        
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
        <div class="background">
         <section class="purple">
-            <h1>My Photo Gallery of Animals</h1>
+           <h1>My Photo Gallery of Animals</h1>
             <div class="img">
-                
-           <p>Don't agitate porcupines.</p>
-             <img src="http://www.fws.gov/uploadedImages/Region_1/NWRS/Zone_2/Willapa_Complex/Willapa/Images/porcupine-520x289-Suzy-Whit.jpg"/>
-            <p>My name is Danae. I like dogs. With headphones.</p>
+            <p id="demo"></p>
+            <button type="button" onclick="dateFunction()">What is the date?</button>
+           
+           
+          <div></div> <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Porcupines
+            </button>
+           
+           <div> <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="modallabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="http://www.fws.gov/uploadedImages/Region_1/NWRS/Zone_2/Willapa_Complex/Willapa/Images/porcupine-520x289-Suzy-Whit.jpg"/>
+             <div>
+             </div> <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Dogs
+            </button>
+            
+           <div> <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="modallabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
            <img src="http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg"/>
            <p> Leopard and Porcupine.</p>
            <img src="http://i.dailymail.co.uk/i/pix/2014/06/03/article-2647133-1E6D10F700000578-290_964x568.jpg"/>
-           <p> He's a semi-aquatic, egg-laying mammal of action! </p>
+           <p> Platypus. </p>
            <img src="http://s3-ak.buzzfed.com/static/enhanced/terminal05/2012/3/22/15/enhanced-buzz-21723-1332443077-138.jpg"/>
            <p> Whale.</p>
            <img src="http://i.perezhilton.com/wp-content/uploads/2014/07/double-breaching-whales-seen-in-canada-amazing-awesome.gif"/>
@@ -26,18 +91,23 @@
            <p>Angry owl</p>
            <img src="http://cdn.backyardchickens.com/6/6e/6eecbcc8_Great-Horned-Owl-flat-best-.jpeg"/>
            <p>Wolf.</p>
-           <img src="http://7-themes.com/data_images/out/74/7023751-gray-wolf.jpg"/>
-           <p>Cuddling farm animals.</p>
-           <img src="http://sites.psu.edu/dianaalnemrirclblog/wp-content/uploads/sites/16376/2015/01/animal-friends-101.jpg"/>
-           <p> Animal Friends</p>
-           <img src="http://wildography.co.uk/wp-content/uploads/2012/08/animal-friends-prairie-dog-and-starling.jpg"/>
-           <p>Sweet dog and fawn.</p>
-           <img src="http://www.lifewithdogs.tv/wp-content/uploads/2015/04/4.3.15-Dogs-and-Baby-Animals2.jpg"/>
-           <p>Animal friends</p>
-           <img src="http://dancenet.s3.amazonaws.com/images/i177/551325.925unlikely_animal_frie_orig.jpg"/>   
-           <p> Tigger and Piglet.</p>
+           <img src="http://7-themes.com/data_images/out/74/7023751-gray-wolf.jpg"/></div>
            </div>
            </section>
+           <p>Click the button to display a confirm box.</p>
+
+            <button onclick="popupFunction()">Try it</button>
+
+            <p id="popupbutton"></p>
+
         </div>
+        </div>
+        </div>
+        <ul>
+            <li> <img src="http://sites.psu.edu/dianaalnemrirclblog/wp-content/uploads/sites/16376/2015/01/animal-friends-101.jpg"/></li>
+            <li> <img src="http://dancenet.s3.amazonaws.com/images/i177/551325.925unlikely_animal_frie_orig.jpg"/></li>
+            <li> <img src="http://wildography.co.uk/wp-content/uploads/2012/08/animal-friends-prairie-dog-and-starling.jpg"/></li>
+            <li><img src="http://www.lifewithdogs.tv/wp-content/uploads/2015/04/4.3.15-Dogs-and-Baby-Animals2.jpg"/></li>
+        </ul>
     </body>
 </html>
